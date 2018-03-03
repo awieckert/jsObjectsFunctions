@@ -1,0 +1,17 @@
+.favorite {
+    background-color: green;
+    border: 1px solid red;
+    display: inline-block;
+    padding: 1.5em;
+}
+
+.not-favorite {
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1.5em;
+}
+
+h1 {
+    text-decoration: underline;
+}

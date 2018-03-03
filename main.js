@@ -42,3 +42,5 @@ for(var i = 0; i < instructorPets.length; i++){
     var currentInstructorsPetName = instructorPets[i].petName;
     printNames.innerHTML += "<h1>" + currentInstructorsPetName + "</h1>";
 }
+
+
