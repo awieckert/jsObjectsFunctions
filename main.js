@@ -36,8 +36,9 @@ var instructorPets = [
 
 console.log("InstructorPets: ", instructorPets);
 
+var printNames = document.getElementById('petNames');
+
 for(var i = 0; i < instructorPets.length; i++){
-    var instructorsPetName = instructorPets[i].petName;
-    var printNames = document.getElementById('petNames');
-    printNames.innerHTML += "<h1>" + instructorsPetName + "</h1>";
+    var currentInstructorsPetName = instructorPets[i].petName;
+    printNames.innerHTML += "<h1>" + currentInstructorsPetName + "</h1>";
 }
